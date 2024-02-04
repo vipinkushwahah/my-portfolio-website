@@ -1,0 +1,49 @@
+.Dark-Theme  {
+  /* color: #ffff;
+  background-color: black; */
+  background: #606c88;
+  background: -webkit-radial-gradient(circle, #606c88 0%, #3f4c6b 100%);
+  background: radial-gradient(circle, #606c88 0%, #3f4c6b 100%);
+  text-shadow: 0 0 5px #faf8f7, 0 0 15px #f3eeeb, 0 0 25px #fdf9f7, 0 0 15px #f1eeeb ;
+}
+
+.Light-Theme {
+  color: #0c0c0c;
+  background-color: rgb(208, 214, 218);
+  /* text-shadow: 0 0 5px #302a2a, 0 0 15px #292626, 0 0 25px #241e1e, 0 0 15px #242121 ; */
+
+}
+.v{
+  padding: 10px;
+}
+.rightside{
+  padding-left: 30%;
+  padding-right: 60px;
+  font-size: 20px;
+}
+
+.leftside{
+  /* display: flex;  */
+  padding-left: 60px;
+}
+
+.toggel-button{
+  margin: 18px;
+}
+
+button{
+  padding: 7px;
+  background-color: rgb(248, 141, 1);
+  border-radius: 50px;
+  border: 1px solid rgb(248, 141, 1);
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+}
+.name3{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}

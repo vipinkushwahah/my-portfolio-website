@@ -1,0 +1,228 @@
+.Container{
+    display: flex;
+    margin-left: 28%;
+    transform: translateY(40px);
+}
+.Two{
+    display: flex;
+   margin-right: 5%;
+}
+.zero{
+    height: 50px;
+    width: 100px;
+    border: 10px solid rgb(255, 174, 0);
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    box-shadow:  0 0 5px #03f467, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #03f44b;
+}
+.zeropluse{
+    height: 50px;
+    width: 100px;
+    border: 10px solid rgb(0, 255, 76);
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    box-shadow:  0 0 5px #f4c803, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f4e403;
+}
+.twenty{
+    height: 50px;
+    width: 100px;
+    border: 10px solid rgb(0, 217, 255);
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+}
+.comp{
+    margin-left: 4%;
+    text-align: center;
+}
+.pro{
+    margin-left: 4%;
+    text-align: center;
+}
+.bold{
+    font-size: 60px;
+    font-weight: 800;
+}
+.head{
+    font-size: 60px;
+    font-weight: 700;
+    color:  rgb(248, 149, 1);
+    text-shadow: 0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303 ;
+
+}
+.space{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.btn4{
+    margin: 20px;
+    transform: translateY(80px);
+}
+.Displey{
+    display: flex;
+    transform: translateY(40px);
+}
+.gola5{
+    height: 37px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    position: relative;
+    top: 15px;
+    left: 21%;
+    transform: translateY(-166%);
+    background-color: aliceblue;
+    box-shadow:  0 0 5px #4b03f4, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #6b03f4;
+}
+.gola3{
+    height: 260px;
+    width: 310px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    top: -364px;
+    left: 105%;
+    transform: translateY();
+    background-color: aliceblue;
+    position: relative;
+    animation: rotation 10s linear infinite;
+    box-shadow:  0 0 5px #03d8f4, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #03d8f4;
+}
+
+.gola3::before {
+    background-color: blue;
+    position: absolute;
+}
+.gola5::before {
+    position: absolute;
+}
+.gola6::before{
+    position: absolute;
+}
+@keyframes rotation {
+
+    0%{
+        transform: rotate(0deg)
+        rotate(-360deg);
+    }
+}
+
+.gola4{
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 41px;
+    margin-left: 55px;
+    margin-top: 12px;
+    position: relative;
+    top: 15px;
+    left: 330px;
+    transform: translateY(-639px);
+    background-color: white;
+    box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+}
+.gola1{
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    position: relative;
+    top: 93px;
+    left: 313px;
+    transform: translate(60%, 0%);
+    background-color: blue;
+    box-shadow:  0 0 5px #f4034b, 0 0 15px #f403e0, 0 0 25px #f403cc, 0 0 100px #f40367;
+}
+.gola2{
+    height: 150px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    position: relative;
+    top: 0px;
+    left: 443px;
+    transform: translateY(-30px);
+    background-color: rgb(255, 208, 0);
+    box-shadow:  0 0 5px #f4030f, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f40317;
+}
+.gola6{
+    height: 37px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    position: relative;
+    top: 15px;
+    left: 73%;
+    transform: translateY(-141%);
+    background-color: aliceblue;
+    box-shadow:  0 0 5px #0bf403, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #03f423;
+}
+.gola7{
+    height: 35px;
+    width: 75px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 37px;
+    margin: 40px;
+    position: relative;
+    top: 15px;
+    left: 24%;
+    transform: translateY(-79%);
+    background-color: aliceblue;
+    box-shadow:  0 0 5px #f44703, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f41303;
+}
+
+.gola8{
+    height: 37px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 35px;
+    margin: 40px;
+    position: relative;
+    top: 15px;
+    left: -26%;
+    transform: translateY(-432%);
+    background-color: aliceblue;
+    box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #03bcf4, 0 0 100px #039cf4;
+}
+.Image{
+    height: 25px;
+    width: 25px;
+    transform: translate(0%, -15px);
+}
+.Image1{
+    height: 50px;
+    width: 50px;
+    transform: translate(0%, 40px);
+}
+.me{
+    transform: translate(-35%, 10%);
+    height: 650px;
+}
+.spaceup{
+    transform: translateY(40px);
+}

@@ -1,0 +1,27 @@
+.boxsqure{
+    border: 1px solid orangered;
+    height: 300px;
+    width: 99%;
+    border-top-right-radius: 100%;
+    
+        border: 0px solid rgba(100, 100, 100, 1);
+        background: linear-gradient(
+          137deg,
+          rgba(197, 202, 219, 1) 22%,
+          rgba(217, 175, 137, 1) 76%,
+          rgba(250, 183, 125, 0.31) 88%
+        );
+        background-blend-mode: screen;
+      
+    /* background-color: orangered; */
+}
+.ancarteg{
+    transform: translateY(100px);
+    margin-left: 60px;
+}
+.imageteg{
+    transform: translateY(100px);
+    margin-left: 60px;
+    border-radius: 20px;
+    
+}

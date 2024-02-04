@@ -1,0 +1,44 @@
+.form{
+    display: flex;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    transform:translateY(20px);
+    gap: 30px;
+}
+input{
+      padding-top: 10px;
+      padding-bottom:10px ;
+      width: 280px;
+      border-radius: 10px;
+      border: 2px solid orangered;
+}
+textarea{
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+.leftmargin{
+   transform: translateX(250px);
+}
+.rightmargin{
+   transform: translateX(450px);
+}
+.upertext{
+    font-size: 60px;
+    font-weight: 800;
+}
+.downtext{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+    color: #f45b03;
+}
+.sendbtn{
+    padding: 10px 35px 10px 35px ;
+    transform: translateX(90px);
+    width: 100px;
+    box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+    background-color: #f45b03;
+    border-radius: 50px;
+}

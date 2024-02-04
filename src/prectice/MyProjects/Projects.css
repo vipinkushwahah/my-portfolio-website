@@ -1,0 +1,65 @@
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+     height: 500px;
+    width: 400px;
+}
+
+.imagehight{
+    height: 500px;
+    width: 400px;
+    border-radius: 40px;
+    border: 10px solid  #35302ecb;
+    filter: drop-shadow(-12px 15px 13px rgb(78, 61, 36));
+    }
+.swipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: -200px;
+}
+
+.projectname{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+    transform: translateY(-210px);
+}
+.projectname1{
+    font-size: 60px;
+    font-weight: 650;
+    text-align: center;
+    text-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+    color: #f45b03;
+    text-decoration: underline;
+    transform: translateY(-210px);
+}
+.middel{
+    text-align: center;
+    text-decoration: underline;
+}
+.btnproject1{
+      margin-left: 40px;
+      margin-top: 10px;
+}
+.aboutinfo{
+    margin: 10px;
+    text-align: center;
+}
+.dounwords{
+    transform: translateY(200px);
+}
+
+.sp{
+    font-size: 30px;
+    font-weight: 50px;
+    color: rgb(88, 84, 84);
+}
+.specing{
+    padding: 10px;
+}
