@@ -62,7 +62,7 @@ const Services = () => {
                     <img className="pad" src={emoji2} alt="emoji" />
                   </span>
                 </div>
-                <div className="glass"></div>
+                <div className="glass">Vipin kushwaha</div>
                 <div className="content">
                   <span className="title">Developer (React.Js)</span>
                   <span className="text">

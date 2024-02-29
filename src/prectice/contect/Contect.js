@@ -22,7 +22,7 @@ const Contect = () => {
     <div className="form">
       <div className="leftmargin">
         <div className="upertext">Get in Touch</div>
-        <div className="downtext">Contect me</div>
+        <div className="downtext">Contact me</div>
       </div>
       <div className="rightmargin">
         <form className="form1" ref={form} onSubmit={sendEmail}>

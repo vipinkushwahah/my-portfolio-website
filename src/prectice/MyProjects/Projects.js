@@ -52,7 +52,7 @@ const Portfolio = () => {
               <br />
               <p  className="specing"> This is an form created using HTML, CSS, JavaScript, React.JS.
                 the data can be recived in tne console window and many more
-                unique effect are been used and even Animations are been used to make it look atrective.
+                unique effect are been used and even Animations are been used to make it look attractive.
                 </p>
             </SwiperSlide>
 
@@ -63,8 +63,8 @@ const Portfolio = () => {
               <h3 className="middel">Info About The Project</h3>
               <br />
               <br />
-              <p  className="specing">the peoject above is an to do app used to save the list of 
-                shopping iterms as well as other notes which we offtern forget when we require them.
+              <p  className="specing">the project above is an to do app used to save the list of 
+                shopping iterms as well as other notes which we offten forget when we require them.
               </p>
             </SwiperSlide>
 
@@ -75,8 +75,8 @@ const Portfolio = () => {
               <h3 className="middel">Info About The Project</h3>
               <br />
               <br />
-              <p  className="specing">IT's an countdown timer can be used during excerciseing and different other work as well. 
-                has many different fitures to check out go on my git hub. </p>
+              <p  className="specing">IT's an countdown timer can be used during exercising and different other work as well. 
+                has many different features to check out go on my git hub. </p>
             </SwiperSlide>
 
             <SwiperSlide>

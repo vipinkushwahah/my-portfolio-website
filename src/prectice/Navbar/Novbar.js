@@ -5,7 +5,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const Novbar = () => {
   const [theme, setTheme] = useState("Light-Theme");
 
-  const toggle = async () => {
+  const toggle =  () => {
     if (
       theme === "Dark-Theme" ? setTheme("Light-Theme") : setTheme("Dark-Theme")
     );
@@ -37,7 +37,7 @@ const Novbar = () => {
            
           
           <span>
-          <NavLink to="contect" > <button className="toggel-button">Contect</button> </NavLink>
+          <NavLink to="contect" > <button className="toggel-button">Contact</button> </NavLink>
           </span>
           <main>
             <Outlet />

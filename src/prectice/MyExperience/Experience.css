@@ -99,20 +99,11 @@
     box-shadow:  0 0 5px #03d8f4, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #03d8f4;
 }
 
-.gola3::before {
-    background-color: blue;
-    position: absolute;
-}
-.gola5::before {
-    position: absolute;
-}
-.gola6::before{
-    position: absolute;
-}
+
 @keyframes rotation {
 
     0%{
-        transform: rotate(0deg)
+        transform: 
         rotate(-360deg);
     }
 }
