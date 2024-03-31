@@ -1,6 +1,7 @@
 import "./Contect.css";
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
+import img from "./assets1/vipin.jpg"
 
 const Contect = () => {
     const form = useRef();
@@ -23,6 +24,7 @@ const Contect = () => {
       <div className="leftmargin">
         <div className="upertext">Get in Touch</div>
         <div className="downtext">Contact me</div>
+        <div > <img className="vipin" src={img} alt="vipinn"/></div>
       </div>
       <div className="rightmargin">
         <form className="form1" ref={form} onSubmit={sendEmail}>

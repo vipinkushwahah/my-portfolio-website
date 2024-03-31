@@ -3,7 +3,7 @@ import "./novbar.css";
 import { NavLink, Outlet } from "react-router-dom";
 
 const Novbar = () => {
-  const [theme, setTheme] = useState("Light-Theme");
+  const [theme, setTheme] = useState("Dark-Theme");
 
   const toggle =  () => {
     if (
@@ -32,7 +32,7 @@ const Novbar = () => {
            
           <NavLink to="/" ><span className="v"> Home </span> </NavLink>
           <NavLink to="experience" > <span className="v"> Experience  </span> </NavLink>
-          <NavLink to="portfolio" > <span className="v">   Portfolio </span> </NavLink>
+          <NavLink to="portfolio" > <span className="v">  Projects </span> </NavLink>
           <NavLink to="services" > <span className="v">    Services  </span> </NavLink>
            
           

@@ -1,17 +1,11 @@
 .Dark-Theme  {
   color: #ffff;
   background-color: black;
-  /* background: #606c88;
-  background: -webkit-radial-gradient(circle, #606c88 0%, #3f4c6b 100%);
-  background: radial-gradient(circle, #606c88 0%, #3f4c6b 100%); */
-  /* text-shadow: 0 0 5px #faf8f7, 0 0 15px #f3eeeb, 0 0 25px #fdf9f7, 0 0 15px #f1eeeb ; */
 }
 
 .Light-Theme {
   color: #0c0c0c;
   background-color: rgb(208, 214, 218);
-  /* text-shadow: 0 0 5px #302a2a, 0 0 15px #292626, 0 0 25px #241e1e, 0 0 15px #242121 ; */
-
 }
 .v{
   padding: 10px;
